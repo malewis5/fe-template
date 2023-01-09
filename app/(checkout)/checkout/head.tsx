@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Checkout Title</title>
+      <title>Checkout</title>
     </>
   );
 }

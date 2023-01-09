@@ -5,7 +5,6 @@ export default function Page({
 }: {
   params: { productId: string; categoryId: string };
 }) {
-  console.log(params.productId);
   return (
     <ProductDescriptionPage
       productId={params.productId}
