@@ -11,10 +11,10 @@ export default function RootLayout({ children }: any) {
               <Link href="/">Home Page</Link>
             </li>
             <li>
-              <Link href="product">Product Page</Link>
+              <Link href="/mens/123">Product Page</Link>
             </li>
             <li>
-              <Link href="product-listing">Product Listing Page</Link>
+              <Link href="/mens">Product Listing Page</Link>
             </li>
             <li>
               <Link href="cart">Cart Page</Link>

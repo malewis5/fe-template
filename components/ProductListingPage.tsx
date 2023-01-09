@@ -1,3 +1,12 @@
-export default function ProductListingPage() {
-  return <h1>Product Listing Page</h1>;
+export default function ProductListingPage({
+  categoryId,
+}: {
+  categoryId: string;
+}) {
+  return (
+    <>
+      <h1>Product Description Page</h1>
+      <h2>Product Category: {categoryId}</h2>
+    </>
+  );
 }
