@@ -5,5 +5,8 @@ export default function Page({
 }: {
   params: { productId: string; categoryId: string };
 }) {
-  return <ProductListingPage categoryId={params.categoryId} />;
+  return (
+    /* @ts-expect-error Server Component */
+    <ProductListingPage categoryId={params.categoryId} />
+  );
 }
